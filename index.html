@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recipe book</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <aside>
+                <h2>Filter</h2>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="Vegetarian" data-category="Vegetarian">
+                        <label for="Vegetarian">Vegetarian</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Dessert" data-category="Dessert">
+                        <label for="Dessert">Dessert</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Pork" data-category="Pork">
+                        <label for="Pork">Pork</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Vegan" data-category="Vegan">
+                        <label for="Vegan">Vegan</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Pasta" data-category="Pasta">
+                        <label for="Pasta">Pasta</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Chicken" data-category="Chicken">
+                        <label for="Chicken">Chicken</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Miscellaneous" data-category="Miscellaneous">
+                        <label for="Miscellaneous">Miscellaneous</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Seafood" data-category="Seafood">
+                        <label for="Seafood">Seafood</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Lamb" data-category="Lamb">
+                        <label for="Lamb">Lamb</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Beef" data-category="Beef">
+                        <label for="Beef">Beef</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Side" data-category="Side">
+                        <label for="Side">Side</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Breakfast" data-category="Breakfast">
+                        <label for="Breakfast">Breakfast</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Goat" data-category="Goat">
+                        <label for="Goat">Goat</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="Starter" data-category="Starter">
+                        <label for="Starter">Starter</label>
+                    </li>
+                </ul>
+            </aside>
+            <main>
+                <div class="container">
+                    <div class="card-columns" id="recipes">
+                        <div class="card" data-id="52871" style="display: inline-block;">
+                            <img src="https://www.themealdb.com/images/media/meals/wrustq1511475474.jpg" class="card-img-top" alt="Yaki Udon thumbnail">
+                            <span class="card-img-hover">Vegetarian</span>
+                            <div class="card-body">
+                                <h2 class="card-title">Yaki Udon</h2>
+                                <ul class="tags">
+                                    <li><span class="badge badge-primary">LowCalorie</span></li>
+                                </ul>
+                                <p class="card-text">Boil some water in a large saucepan. Add 250ml cold water and the udon noodles. (As they are so thick, adding cold water helps them to cook a little bit
+                                    slower so the middle cooks through). If using frozen or fresh noodles, cook for 2 mins or until al dente; dried will take longer, about 5-6 mins. Drain and leave in the
+                                    colander.Heat 1 tbsp of the oil, add the onion and cabbage and sauté for 5 mins until softened. Add the mushrooms and some spring onions, and sauté for 1 more min. Pour in
+                                    the remaining sesame oil and the noodles. If using cold noodles, let them heat through before adding the ingredients for the sauce – otherwise tip in straight away and keep
+                                    stir-frying until sticky and piping hot. Sprinkle with the remaining spring onions.</p>
+                                <h3>Ingrédients: </h3>
+                                <ul class="ingredients">
+                                    <li>250g Udon Noodles</li>
+                                    <li>2 tbs Sesame Seed Oil</li>
+                                    <li>1 sliced Onion</li>
+                                    <li>0.25 Cabbage</li>
+                                    <li>10 Shiitake Mushrooms</li>
+                                    <li>4 Spring Onions</li>
+                                    <li>4 tbsp Mirin</li>
+                                    <li>2 tbs Soy Sauce</li>
+                                    <li>1 tblsp Caster Sugar</li>
+                                    <li>1 tblsp Worcestershire Sauce</li>
+                                </ul>
+                                <a href="https://www.bbcgoodfood.com/recipes/yaki-udon" class="btn btn-primary">Source</a>
+                                <a href="https://www.youtube.com/watch?v=5Iy0MCowSvA" class="btn btn-danger">Youtube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <script src="node_modules/jquery/dist/jquery.min.js"></script>
+            <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="recipes.js"></script>
+            <script src="script.js"></script>
+</body>
+</html>
